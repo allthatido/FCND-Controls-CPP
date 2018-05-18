@@ -1,8 +1,8 @@
-## Project: 3D Motion Planning by
+## Project: Building a controller by
 ![All That I Do](./animations/Logo.PNG)
 
 
-### Implemented Controller
+### Implemented PID Controller
 ---
 #### 1. `Generate Motor Commands`
 Please refer to function QuadControl::GenerateMotorCommands in L56 – L91 in QuadControl.cpp. Math behind the scene is:
