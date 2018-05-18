@@ -43,7 +43,7 @@ Please refer to function QuadControl::LateralPositionControl in L220 – L281 in
 
 Quite similar with altitude control,x_dot_dot_c is the commanded acceleration along the x-axis and y-axis in inertial frame, p_c, p, p_dot_c and p_dot is the commanded/actual horizonal position and commanded/actual horitonzal velocity in inertial frame. p_dot_dot_ff is the feed-forward acceleration and Kp, Kd are the control gain parameters. Necessary clipping is performed to meet the quad dynamics.
 
-#### 6. `Yaw ontrol`
+#### 6. `Yaw Control`
 Please refer to function QuadControl::YawControl in L285 – L311 in QuadControl.cpp. Math behind the scene is:
 
 ![LateralPositionControl](./animations/YawControl.JPG)
